@@ -1,6 +1,18 @@
 import "./globals.css";
+import Sidebar from './Sidebar'; // Add this import statement
 
-
+const Layout = ({ children, withSidebar }) => {
+  if (withSidebar) {
+    return (
+      <div className="flex">
+        <Sidebar />
+        <div className="flex-grow">{children}</div>
+      </div>
+    );
+  } else {
+    return <div>{children}</div>;
+  }
+};
 
 export const metadata = {
   title: "QuantumField",
@@ -10,7 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Layout withSidebar={true}> {/* or false depending on your needs */}
+          {children}
+        </Layout>
+      </body>
       <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </html>
   );

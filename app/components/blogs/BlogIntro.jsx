@@ -17,7 +17,10 @@ const BlogIntro = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {blogs.map((items, index) => {
             return (
-              <div className="rounded-xl flex flex-col justify-start items-start gap-3 max-w-[462px] shadow-xl border-gray-200 border-2">
+              <div
+                key={index}
+                className="rounded-xl flex flex-col justify-start items-start gap-3 max-w-[462px] shadow-xl border-gray-200 border-2"
+              >
                 <Image
                   src={blog1}
                   alt="blog One"
@@ -26,7 +29,7 @@ const BlogIntro = () => {
                   className="rounded-t-xl md:w-[461px] md:h-[342px]"
                 />
                 <div className="flex justify-start items-start gap-2 px-2">
-                  <LuCalendarClock size={20} className="text-[#828282]"/>
+                  <LuCalendarClock size={20} className="text-[#828282]" />
                   <p className="text-[#828282] text-[14px] inter">
                     Dec 13, 23 12:00 pm
                   </p>

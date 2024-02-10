@@ -1,12 +1,12 @@
-import React from 'react'
-import Homes from './pages/Homes';
+import React from "react";
+import Homes from "./pages/Homes";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mt-10">
       <Homes />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

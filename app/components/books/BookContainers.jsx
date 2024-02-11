@@ -12,49 +12,49 @@ const Bookcontainers = () => {
             <img
               src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
           <div className="carousel-item">
             <img
               src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
               alt="Burger"
-              className="w-[200px] h-[250px]"
+              className="w-[200px] h-[250px] shadow-lg hover:shadow-2xl hover:shadow-gray-600 hover:cursor-pointer border-2 border-gray-300"
             />
           </div>
         </div>

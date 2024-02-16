@@ -43,12 +43,14 @@ h1 {
 .con{
   background-image: url('assets/conr.png');
 }
-/* .bgs{
+.bgso {
   background-image: url('assets/bgs.png');
-} */
+}
 .bgs{
   background-image: url('../app/assets/bgs.png');
 }
 .contact {
-  background-image: url('../app/assets/bgs.png');
+    background: url('../app/assets/bgs.png');
+      background-position: center;
+      background-size: cover;
 }

@@ -3,7 +3,7 @@ import ContactUs from '../components/contact/ContactUs';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <ContactUs />
     </div>
   )

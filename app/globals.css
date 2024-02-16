@@ -39,3 +39,13 @@ h1 {
 .back{
   @apply text-black text-[25px] sm:text-[30px] md:text-[40px] lg:text-[50px] font-bold;
 }
+
+.con{
+  background-image: url('assets/conr.png');
+}
+/* .bgs{
+  background-image: url('assets/bgs.png');
+} */
+.bgs{
+  background-image: url('../app/assets/bgs.png');
+}

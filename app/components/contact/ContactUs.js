@@ -24,12 +24,20 @@ const ContactUs = () => {
         <p>+251-932-980730</p>
         </div>
       </div>
-      <div className='bg-[#F2D050] lg:min-h-[500px] '>
+      <div className='bg-[#F2D050] lg:min-h-[500px] px-2 sm:px-6 py-2'>
       <div>
-        <form>
-          <div>
-            <p>Name</p>
-            <input type='text' className='bg-[#F2D050]'/>
+        <form className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-4'>
+            <p className='text-[16px] md:text-[18px] font-medium'>Name</p>
+            <input type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
+          </div>
+          <div className='flex flex-col gap-4'>
+            <p className='text-[16px] md:text-[18px] font-medium'>Email</p>
+            <input type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
+          </div>
+          <div className='flex flex-col gap-4'>
+            <p className='text-[16px] md:text-[18px] font-medium'>Message</p>
+            <textarea cols={30} rows={4} type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
           </div>
         </form>
       </div>

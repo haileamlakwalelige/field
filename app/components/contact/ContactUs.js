@@ -29,15 +29,15 @@ const ContactUs = () => {
         <form className='flex flex-col gap-6'>
           <div className='flex flex-col gap-4'>
             <p className='text-[16px] md:text-[18px] font-medium'>Name</p>
-            <input type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
+            <input type='text' className='bg-[#F2D050] min-w-[300px] px-3 min-h-[40px] max-w-[450px] text-white rounded-xl border-white border-2'/>
           </div>
           <div className='flex flex-col gap-4'>
             <p className='text-[16px] md:text-[18px] font-medium'>Email</p>
-            <input type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
+            <input type='text' className='bg-[#F2D050] min-h-[40px] px-3 min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
           </div>
           <div className='flex flex-col gap-4'>
             <p className='text-[16px] md:text-[18px] font-medium'>Message</p>
-            <textarea cols={30} rows={4} type='text' className='bg-[#F2D050] min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
+            <textarea cols={30} rows={4} type='text' className='bg-[#F2D050] px-3 min-w-[300px] max-w-[450px] text-white rounded-xl border-white border-2'/>
           </div>
           <div className='flex justify-center items-center'>
             <button type='submit' className='text-[#F2D050] bg-white py-2 px-10 text-center rounded-xl font-medium text-[18px] md:text-[22px] lg:text-[24px]'>Send Message</button>

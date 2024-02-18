@@ -56,7 +56,9 @@ function HomeIntro() {
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
-      ></div>
+      >
+       
+      </div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -70,7 +72,7 @@ function HomeIntro() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer w-screen'
+            className='text-7xl text-white  -mt-20 rounded-full cursor-pointer mx-3 font-bold h-[10px] w-[10px]'
           >
             <RxDotFilled />
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeWelcome = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-[40vh]">
+    <div className="flex flex-col justify-center items-center min-h-[40vh] mt-40">
       <h1 className="roboto text-[25px] sm:text-[30px] md:text-[40px] lg:text-[50px] font-bold">
         Hello, Welcome to QuantumField!
       </h1>

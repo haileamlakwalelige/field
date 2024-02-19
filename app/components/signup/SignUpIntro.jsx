@@ -21,10 +21,7 @@ const SignUpIntro = () => {
         </div>
         <div className=" lg:col-span-2 bg-[#F2D050] roboto justify-center items-center flex min-h-[580px]">
           <p className="text-white text-[18px] md:text-[21px] lg:text-[24px] px-2 md:px-5">
-            Welcome to QuantumField, where innovative tech consulting meets
-            insightful literature; login now to access exclusive content,
-            explore our quantum achievements, and be at the forefront of the
-            future of work and innovation!
+          Welcome to QuantumField, where innovative tech consulting meets insightful literature; login now to access exclusive content, explore our quantum achievements, and be at the forefront of the future of work and innovation!
           </p>
         </div>
         <div className="min-h-[580px]">

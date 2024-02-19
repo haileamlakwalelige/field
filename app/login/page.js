@@ -3,10 +3,10 @@ import LoginIntro from '../components/login/LoginIntro';
 
 const Login = () => {
   return (
-    <div>
-        <LoginIntro />
+    <div className="mt-32">
+      <LoginIntro />
     </div>
-  )
+  );
 }
 
 export default Login;

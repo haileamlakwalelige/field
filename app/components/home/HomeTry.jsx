@@ -19,7 +19,7 @@ function HomeTry() {
         {
           url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
           // text: 'Use Client 3',
-          description:'Do you want to stay ahead in the world of technology? Explore what&apos;s new at QuantumField – Where Technology Meets Innovation!',
+          description:"Do you want to stay ahead in the world of technology? Explore what's new at QuantumField – Where Technology Meets Innovation!",
         },
       ];
 
@@ -50,13 +50,16 @@ function HomeTry() {
   };
 
   return (
-    <div className='mt-32 max-w-screen h-[90vh] w-full top-0  relative group'>
+    <div className='-mt-10 max-w-screen h-[90vh] w-full top-0  relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full bg-center bg-cover duration-500 relative'
       >
-        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[30px] md:text-[40px]  lg:text-[45px] font-bold cri text-center'>
+        <div className='absolute -mt-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[30px] md:text-[40px]  lg:text-[45px] font-bold cri text-center'>
           {slides[currentIndex].text}
+        </div>
+        <div className='absolute mt-20 cri top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#F2D050] text-[25] md:text-[30px] lg:text-[36px] font-semibold text-center'>
+          {slides[currentIndex].description}
         </div>
       </div>
       {/* Left Arrow */}

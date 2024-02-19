@@ -12,7 +12,7 @@ import HomeTry from "../components/home/HomeTry";
 const Homes = () => {
   return (
     <div>
-      <HomeIntro />
+      {/* <HomeIntro /> */}
       <HomeTry />
       <HomeWelcome />
       <HomeWhoWeAre />

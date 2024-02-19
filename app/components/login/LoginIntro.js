@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import log1 from "../../assets/log1.png";
 
 const LoginIntro = () => {
   return (
@@ -19,10 +20,11 @@ const LoginIntro = () => {
         <div>
           <p className="text-[#846640] cri text-[20px] md:text-[24px] lg:text-[28px]">
             Welcome Back
-            <form>
+            <form className="flex flex-col justify-center items-center gap-4">
               <input
                 type="email"
                 className="rounded-xl border-[#846640] border-2 min-w-[300px]"
+                placeholder="Email"
               />
             </form>
           </p>

@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className='text-black font-serif z-100'>
             <h1 className='font-medium text-white text-center text-[20px] md:text-[30px] lg:text-[40px] cri'>QuantumField: Bringing into <br/> existence out of nothing</h1>
         </div>
-      <label htmlFor="active" className="menu-btn  z-100"><FaBarsStaggered  className=' text-center mt-3 flex justify-center items-center'/></label>
+      <label htmlFor="active" className="menu-btn  z-100"><FaBarsStaggered  className=' text-center  mt-3 flex justify-center items-center'/></label>
       </div>):(<div className='py-3  px-2 sm:px-4 md:px-8 lg:px-12 bg-transparent min-h-[100px] '>
         <div className='text-white text-[20px] md:text-[30px] lg:text-[49px] font-serif z-100'>Logo</div>
       <label htmlFor="active" className="menu-btn z-100"><FaBarsStaggered  className=' text-center mt-3 flex justify-center items-center'/></label>

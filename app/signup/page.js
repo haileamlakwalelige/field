@@ -3,10 +3,10 @@ import SignUpIntro from '../components/signup/SignUpIntro';
 
 const SingUp = () => {
   return (
-    <div>
-        <SignUpIntro />
+    <div className="mt-32">
+      <SignUpIntro />
     </div>
-  )
+  );
 }
 
 export default SingUp;

@@ -4,7 +4,7 @@ import BlogNews from "../components/blogs/BlogNews";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="mt-20">
       <BlogIntro />
       <BlogNews />
     </div>

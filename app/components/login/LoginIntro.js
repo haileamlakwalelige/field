@@ -27,7 +27,7 @@ const LoginIntro = () => {
           </p>
         </div>
         <div className="min-h-[580px]">
-          <p className="text-[#846640] cri text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] text-center font-semibold mb-10">
+          <p className="text-[#846640] cri text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] text-center font-bold mb-10">
             Welcome Back
           </p>
           <form className="flex flex-col justify-center items-center gap-4">

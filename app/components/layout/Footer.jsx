@@ -38,11 +38,11 @@ const Footer = () => {
         <form className='mt-4 flex flex-col justify-center items-center'>
             <div>
                 <p className='text-white text-lg roboto pb-1'>Name</p>
-                <input type='text' className='bg-[#F2D050] text-white min-w-[300px] lg:min-w-[450px] rounded-3xl' />
+                <input type='text' className='bg-[#F2D050] text-white min-w-[300px] lg:min-w-[450px] min-h-[50px] rounded-3xl' />
             </div>
-            <div>
-                <p className='text-white text-lg roboto pb-1'>Name</p>
-                <input type='text' className='bg-[#F2D050] text-white min-w-[300px] lg:min-w-[450px] rounded-3xl' />
+            <div className='mt-10'>
+                <p className='text-white text-lg roboto pb-1'>Email</p>
+                <input type='email' className='bg-[#F2D050] text-white min-w-[300px] lg:min-w-[450px] min-h-[50px] rounded-3xl' />
             </div>
             <button type='submit' className='text-[#F2D050] bg-white rounded-xl px-10 mt-4 py-2 font-semibold text-xl'>Subscribe</button>
         </form>

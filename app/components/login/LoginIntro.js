@@ -4,6 +4,7 @@ import log1 from "../../assets/log1.png";
 import gog from "../../assets/gog.png";
 import link from "../../assets/link.png";
 import face from "../../assets/face.png";
+import Link from "next/link";
 
 const LoginIntro = () => {
   return (
@@ -66,6 +67,12 @@ const LoginIntro = () => {
               </p>
             </div>
           </form>
+          <div className="flex roboto justify-center items-center gap-4">
+            <p className="text-black font-semibold py-1 roboto">
+              Don&apos;t have an account?
+            </p>
+            <Link href="/signup">Sign Up</Link>
+          </div>
         </div>
       </div>
     </div>

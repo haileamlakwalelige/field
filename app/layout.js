@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from './components/layout/Navbar';
-
-
+import Footer from "./components/layout/Footer";
 
 export const metadata = {
   title: "QuantumField",
@@ -13,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Navbar />
       <body>{children}</body>
+      <Footer />
     </html>
   );
 }

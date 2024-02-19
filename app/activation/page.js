@@ -11,6 +11,9 @@ const Activation = () => {
           qcyLtO0DkU
         </p>
       </div>
+      <div>
+                <button type='submit' className='flex mt-10 text-white py-2 px-20 font-semibold bg-[#846640] text-[20px] md:text-[22px] lg:text-[24px] rounded-xl'>Continue to Book</button>
+            </div>
     </div>
   );
 };

@@ -49,9 +49,21 @@ const LoginIntro = () => {
             <button className="min-w-[300px] bg-[#846640] text-white py-2 rounded-xl">
               Login
             </button>
-            <div className="flex border-[#846640] border-2 rounded-xl gap-3 min-w-[300px] py-2 px-2">
+            <div className="flex border-[#846640] border-2 rounded-xl gap-3 min-w-[300px] py-2 px-2 mt-6">
               <Image src={gog} alt="" width={25} height={25} />
               <p className="font-semibold text-[16px]">Continue With Google</p>
+            </div>
+            <div className="flex border-[#846640] border-2 rounded-xl gap-3 min-w-[300px] py-2 px-2">
+              <Image src={link} alt="" width={25} height={25} />
+              <p className="font-semibold text-[16px]">
+                Continue With LinkedIn
+              </p>
+            </div>
+            <div className="flex border-[#846640] border-2 rounded-xl gap-3 min-w-[300px] py-2 px-2">
+              <Image src={face} alt="" width={25} height={25} />
+              <p className="font-semibold text-[16px]">
+                Continue With Facebook
+              </p>
             </div>
           </form>
         </div>

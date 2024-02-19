@@ -44,8 +44,8 @@ const SignUpIntro = () => {
               className="rounded-xl border-[#846640] border-2 min-w-[300px] text-[18px] placeholder:text-[18px] placeholder:pl-3 min-h-[50px] "
               placeholder="Password"
             />
-            <div className="grid grid-cols-2">
-              <p className="text-black font-semibold py-1 roboto">
+            <div className="flex justify-start items-start">
+              <p className="text-black font-medium py-1 roboto">
               Between 8 and 72 characters
               </p>
             </div>

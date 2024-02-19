@@ -68,7 +68,7 @@ const SignUpIntro = () => {
               </p>
             </div>
           </form>
-                      <div className="flex flex-row gap-2">
+                      <div className="flex roboto justify-center items-center gap-4">
               <p className="text-black font-medium py-1 roboto -ml-6">
               Already have an account? 
               </p>

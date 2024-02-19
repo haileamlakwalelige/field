@@ -7,11 +7,13 @@ import HomeCommitment from "../components/home/HomeCommitment";
 import HomeWhat from "../components/home/HomeWhat";
 import HomeReady from "../components/home/HomeReady";
 import HomeIntro from "../components/home/HomeIntro";
+import HomeTry from "../components/home/HomeTry";
 
 const Homes = () => {
   return (
     <div>
       <HomeIntro />
+      <HomeTry />
       <HomeWelcome />
       <HomeWhoWeAre />
       <HomeMission />

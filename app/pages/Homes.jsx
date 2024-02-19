@@ -6,7 +6,7 @@ import HomeVision from "../components/home/HomeVision";
 import HomeCommitment from "../components/home/HomeCommitment";
 import HomeWhat from "../components/home/HomeWhat";
 import HomeReady from "../components/home/HomeReady";
-import HomeIntro from "../components/home/HomeIntro";
+// import HomeIntro from "../components/home/HomeIntro";
 import HomeTry from "../components/home/HomeTry";
 
 const Homes = () => {

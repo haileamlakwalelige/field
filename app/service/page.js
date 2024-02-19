@@ -4,7 +4,7 @@ import HomeReady from "../components/home/HomeReady";
 
 const Service = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-32">
       <ServiceWhole />
       <HomeReady />
     </div>

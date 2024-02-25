@@ -75,7 +75,7 @@ function HomeTry() {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-7xl text-black  -mt-32 rounded-full cursor-pointer mx-3 font-bold h-[10px] w-[10px]'
+            className='text-7xl text-white z-40  -mt-32 rounded-full cursor-pointer mx-3 font-bold h-[10px] w-[10px]'
           >
             <RxDotFilled />
           </div>

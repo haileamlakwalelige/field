@@ -7,6 +7,7 @@ import './navbar.css';
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaCartArrowDown } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
+import Link from 'next/link';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -52,15 +53,15 @@ const Navbar = () => {
         </div>
       ) : (
         <div className="py-3  px-2 sm:px-4 md:px-8 lg:px-12 bg-transparent min-h-[100px] ">
-          <div className="text-white text-[20px] md:text-[30px] lg:text-[49px] font-serif z-100">
+          <div className="text-[#846640] text-[20px] md:text-[30px] lg:text-[49px] font-serif z-100">
             Logo
           </div>
           <div className="flex  gap-2">
-            <div className="flex  justify-center menu-btnso text-white absolute">
-              <IoPerson />
+            <div className="flex  justify-center menu-btnso text-[#846640] absolute">
+              <Link href="login"><IoPerson className='text-[#846640] '/></Link>
             </div>
-            <div className="flex  justify-center menu-btns text-white absolute">
-              <FaCartArrowDown />
+            <div className="flex  justify-center menu-btns text-[#846640] absolute">
+              <FaCartArrowDown className='text-[#846640] '/>
               <sup className="mt-1 font-semibold">2</sup>
             </div>
             <label htmlFor="active" className="menu-btn z-100 ">
@@ -84,19 +85,19 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/service">Services</a>
+            <Link href="/service">Services</Link>
           </li>
           <li>
-            <a href="/books">Books</a>
+            <Link href="/books">Books</Link>
           </li>
           <li>
-            <a href="/blogs">Blog</a>
+            <Link href="/blogs">Blog</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </div>

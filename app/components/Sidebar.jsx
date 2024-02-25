@@ -32,7 +32,8 @@ const Sidebar = () => {
         <p className="font-semibold text-[20px]">Applied Filters</p>
         {width ? <FaTimesCircle size={20} /> : <AiOutlineBars size={20} />}
       </div>
-      <p className="py-2 cursor-pointer text-[20px] font-medium">Book Type</p>
+     <div>
+     <p className="py-2 cursor-pointer text-[20px] font-medium">Book Type</p>
       <div>
         <div>
           <div onClick={() => handleShow(1)}>
@@ -42,7 +43,8 @@ const Sidebar = () => {
               </p>
               {width && (show === 1 ? <FaChevronDown /> : <FaChevronUp />)}
             </div>
-            {show === 1 && (
+          <div className="">
+          {show === 1 && (
               <div className="flex flex-col gap-3 px-4 mt-3 justify-center items-start">
                 <p className="cursor-pointer text-[16px]">Autographs</p>
                 <p className="cursor-pointer text-[16px]">Buttons & Pins</p>
@@ -61,6 +63,7 @@ const Sidebar = () => {
                 <p className="cursor-pointer text-[16px]">Textiles & Costume</p>
               </div>
             )}
+          </div>
           </div>
 
           <div onClick={() => handleShow(2)}>
@@ -83,6 +86,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
+     </div>
     </div>
   );
 };

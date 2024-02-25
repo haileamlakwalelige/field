@@ -37,7 +37,7 @@ const Navbar = () => {
       }
     }, []);
   return (
-    <div className='min-h-[100px] top-0 fixed w-screen shadow-xl border-gray-100'>
+    <div className='min-h-[100px] top-0 fixed w-screen shadow-xl border-gray-100 z-50'>
       <input type="checkbox" id="active" />
       {scrolled ? (<div className='py-3 px-2 sm:px-4 md:px-8 lg:px-12  bg-[#846640] min-h-[100px] '>
         <div className='text-black font-serif z-100'>

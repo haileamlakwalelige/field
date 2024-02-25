@@ -1,0 +1,412 @@
+[
+    {
+        "id": 1,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "src": "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
+        "title": "",
+        "description": "",
+        "basic": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 day",
+                "price": "0.99"
+            }
+        ],
+        "basic2": [
+            {
+                "type": "Basic",
+                "desc": "Access the book for 1 week",
+                "price": "1.99"
+            }
+        ],
+        "standard": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 1 month",
+                "price": "9.99"
+            }
+        ],
+        "standard2": [
+            {
+                "type": "Standard",
+                "desc": "Access the book for 6 month",
+                "price": "14.99"
+            }
+        ],
+        "premium": [
+            {
+                "type": "Premium",
+                "desc": "Access the book for 1 year",
+                "price": "24.99"
+            }
+        ]
+    }
+]

@@ -43,7 +43,40 @@
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     transition: all 0.3s ease-in-out;
 }
-
+.menu-btns {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 30px;
+    right: 120px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.menu-btnso {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 30px;
+    right: 170px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 #active:checked~.menu-btn {
     background: #fff;
     color: #4158d0;

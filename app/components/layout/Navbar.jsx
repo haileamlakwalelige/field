@@ -5,6 +5,7 @@
 import React, { useEffect, useState } from 'react';
 import './navbar.css';
 import { FaBarsStaggered } from "react-icons/fa6";
+import blog from '../../assets/bgs.png';
 
 
 const Navbar = () => {
@@ -46,13 +47,9 @@ const Navbar = () => {
       <label htmlFor="active" className="menu-btn  z-100"><FaBarsStaggered  className=' text-center  mt-3 flex justify-center items-center'/></label>
       </div>):(<div className='py-3  px-2 sm:px-4 md:px-8 lg:px-12 bg-transparent min-h-[100px] '>
         <div className='text-white text-[20px] md:text-[30px] lg:text-[49px] font-serif z-100'>Logo</div>
-      <label htmlFor="active" className="menu-btn z-100"><FaBarsStaggered  className=' text-center mt-3 flex justify-center items-center'/></label>
+      <label htmlFor="active" className="menu-btn z-100 "><FaBarsStaggered  className=' text-center ml-3 md:ml-0 mt-3 flex justify-center items-center'/></label>
       </div>) }
-      {/* <div className='py-3 bg-[#846640] min-h-[100px] '>
-        <div className='text-black font-serif z-100'>Hello</div>
-      <label htmlFor="active" className="menu-btn relative z-100"><FaBarsStaggered  className='absolute text-center mt-3 flex justify-center items-center'/></label>
-      </div> */}
-      <div className="wrapper">
+      <div className="wrapper w-full h-full bg-center bg-cover duration-500" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80')` }}>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/service">Services</a></li>

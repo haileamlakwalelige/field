@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div
       className={
         width
-          ? "min-w-[350px] max-w-[400px] border-2 border-gray-200 shadow-xl rounded px-5 justify-center mr-5 py-5"
+          ? "md:min-w-[350px] max-w-[400px] border-2 border-gray-200 shadow-xl rounded px-5 justify-center mr-5 py-5"
           : "w-[330px] border-2 mr-5 border-gray-200 shadow-xl rounded px-5 justify-center py-5"
       }
     >

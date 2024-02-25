@@ -9,7 +9,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='overflow-x-hidden mt-32 bg-[#846640] min-h-[70vh] flex flex-col justify-center items-center roboto py-10'>
+    <div className='overflow-x-visible md:overflow-x-hidden mt-32 bg-[#846640] min-h-[70vh] flex flex-col justify-center items-center roboto py-10 min-w-screen'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-3 lg:gap-10'>
             <div></div>
             <div className='flex flex-col justify-center items-center gap-4'>

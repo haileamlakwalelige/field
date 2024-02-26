@@ -8,9 +8,11 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { FaCartArrowDown } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import Link from 'next/link';
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const cartBook = useSelector((state) => state.cart);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,11 +60,13 @@ const Navbar = () => {
           </div>
           <div className="flex  gap-2">
             <div className="flex  justify-center menu-btnso text-[#846640] absolute">
-              <Link href="login"><IoPerson className='text-[#846640] '/></Link>
+              <Link href="login">
+                <IoPerson className="text-[#846640] " />
+              </Link>
             </div>
             <div className="flex  justify-center menu-btns text-[#846640] absolute">
-              <FaCartArrowDown className='text-[#846640] '/>
-              <sup className="mt-1 font-semibold">2</sup>
+              <FaCartArrowDown className="text-[#846640] " />
+              <sup className="mt-1 font-semibold text-[#846640]">{cartBook.length}</sup>
             </div>
             <label htmlFor="active" className="menu-btn z-100 ">
               {" "}

@@ -2,13 +2,19 @@
 
 import React, { useState } from "react";
 import books from "../../data/data.json";
-import Image from "next/image";
+import { useDispatch } from "react-redux";
+import { add } from "../../store/cartSlice";
 
 const BooksAll = () => {
   const [selectedBook, setSelectedBook] = useState(null);
 
+  const dispatch = useDispatch();
   const handleClick = (book) => {
     setSelectedBook(book);
+  };
+
+  const addToCart = (book) => {
+    dispatch(add(book));
   };
 
   return (
@@ -61,7 +67,10 @@ const BooksAll = () => {
                         ${item.price}
                       </p>
 
-                      <button className="text-white hover:bg-white hover:text-[#846640] hover:border-2 border-gray-100 hover:rounded-xl bg-[#846640] px-10 py-2 roboto rounded font-semibold mt-8">
+                      <button
+                        className="text-white hover:bg-white hover:text-[#846640] hover:border-2 border-gray-100 hover:rounded-xl bg-[#846640] px-10 py-2 roboto rounded font-semibold mt-8"
+                        onClick={() => addToCart(item)}
+                      >
                         Add to Cart
                       </button>
                     </div>

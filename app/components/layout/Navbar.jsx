@@ -64,10 +64,14 @@ const Navbar = () => {
                 <IoPerson className="text-[#846640] " />
               </Link>
             </div>
-            <div className="flex  justify-center menu-btns text-[#846640] absolute">
-              <FaCartArrowDown className="text-[#846640] " />
-              <sup className="mt-1 font-semibold text-[#846640]">{cartBook.length}</sup>
-            </div>
+            <Link href="/cart">
+              <div className="flex  justify-center menu-btns text-[#846640] absolute">
+                <FaCartArrowDown className="text-[#846640] " />
+                <sup className="mt-1 font-semibold text-[#846640]">
+                  {cartBook.length}
+                </sup>
+              </div>
+            </Link>
             <label htmlFor="active" className="menu-btn z-100 ">
               {" "}
               <FaBarsStaggered
